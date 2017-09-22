@@ -51,6 +51,7 @@ a {
 #CorpText {
 	display: table-cell;
 	color: #666;
+
 }
 
 #MainSection {
@@ -157,5 +158,9 @@ ul.textline {
 
 	#MainSection {
 		max-width: 800px;
+	}
+
+	#CorpText {
+		vertical-align: middle;
 	}
 }
