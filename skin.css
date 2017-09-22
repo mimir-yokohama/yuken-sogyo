@@ -69,15 +69,8 @@ a {
 }
 
 #TopNavigation ul {
-	margin: auto;
-}
-
-#TopNavigation li {
-	display: inline-block;
-	margin: auto 1em;
-	padding: 1.4em;
-	list-style-type: none;
-	border: 2px solid #e95513;
+	margin: auto 15px;
+	padding: 0px;
 }
 
 address ul {
@@ -128,9 +121,25 @@ ul.textline {
 	#MainSection {
 		width: 800px;
 	}
+
+	#TopNavigation li {
+		display: inline-block;
+		margin: 0.5em 1em;
+		padding: 1.4em;
+		list-style-type: none;
+		border: 2px solid #e95513;
+	}
 }
 
 @media screen and (max-width: 800px){
+	#TopNavigation li {
+		display: inline-block;
+		margin: 0.25em auto;
+		padding: 0.3em;
+		list-style-type: none;
+		border: 2px solid #e95513;
+	}
+
 	#TopBannerHeader h1 {
 		max-width: 800px;
 	}
