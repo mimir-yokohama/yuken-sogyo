@@ -1,6 +1,19 @@
+/* Base theme */
 body {
 	margin: 0px;
 	padding: 0px;
+}
+
+a:visited {
+	color: #c068a8;
+}
+
+a:hover {
+	color: #ff8230;
+}
+
+a {
+	color: #3366c0;
 }
 
 /* Header Section */
@@ -18,12 +31,15 @@ body {
 #TopBannerHeader h1{
 	display: table;
 	margin: auto;
-	width: 800px;
 }
 
 #TopNavigation{
 	margin: 0.8em 0px;
 	padding: 0.3em auto;
+}
+
+#TopNavigation a {
+	text-decoration: none;
 }
 
 #CorpLogo {
@@ -39,7 +55,6 @@ body {
 
 #MainSection {
 	margin: auto;
-	width: 800px;
 	color: #333;
 }
 
@@ -55,7 +70,6 @@ body {
 
 #TopNavigation ul {
 	margin: auto;
-	width: 800px;
 }
 
 #TopNavigation li {
@@ -77,6 +91,10 @@ footer {
 	background-color: #e95513;
 }
 
+footer a {
+	color: #003;
+}
+
 footer ul {
 	margin: auto;
 	max-width: 800px;
@@ -88,4 +106,40 @@ footer li {
 	display: inline-block;
 	margin: 2em;
 	font-size: 80%;
+}
+
+ul.textline {
+	marker-style: none;
+	text-align: right;
+}
+
+
+/* Resposible */
+
+@media screen and (min-width: 801px){
+	#TopBannerHeader h1 {
+		width: 800px;
+	}
+
+	#TopNavigation ul {
+		width: 800px;
+	}
+
+	#MainSection {
+		width: 800px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#TopBannerHeader h1 {
+		max-width: 800px;
+	}
+
+	#TopNavigation ul {
+		max-width: 800px;
+	}
+
+	#MainSection {
+		max-width: 800px;
+	}
 }
