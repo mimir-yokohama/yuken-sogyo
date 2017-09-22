@@ -1,0 +1,91 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header Section */
+#TopSection {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	color: #000;
+}
+
+#TopBannerHeader {
+  margin: 0px;
+}
+
+#TopBannerHeader h1{
+	display: table;
+	margin: auto;
+	width: 800px;
+}
+
+#TopNavigation{
+	margin: 0.8em 0px;
+	padding: 0.3em auto;
+}
+
+#CorpLogo {
+	height: 3em;
+	border: none 0px;
+	display: table-cell;
+}
+
+#CorpText {
+	display: table-cell;
+	color: #666;
+}
+
+#MainSection {
+	margin: auto;
+	width: 800px;
+	color: #333;
+}
+
+#MainSection h1 {
+	color: #666;
+	border-bottom: 2px solid #e95513;
+}
+
+#MainSection h2 {
+	font-size: 250%;
+	border-left: 6px solid #e95513;
+}
+
+#TopNavigation ul {
+	margin: auto;
+	width: 800px;
+}
+
+#TopNavigation li {
+	display: inline-block;
+	margin: auto 1em;
+	padding: 1.4em;
+	list-style-type: none;
+	border: 2px solid #e95513;
+}
+
+address ul {
+	list-style: none;
+}
+
+/* Footer Section */
+
+footer {
+	margin: 8em 0px 0px 0px;
+	background-color: #e95513;
+}
+
+footer ul {
+	margin: auto;
+	max-width: 800px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+footer li {
+	display: inline-block;
+	margin: 2em;
+	font-size: 80%;
+}
