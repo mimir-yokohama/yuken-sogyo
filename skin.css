@@ -68,10 +68,7 @@ a {
 	border-left: 6px solid #e95513;
 }
 
-#TopNavigation ul {
-	margin: auto 15px;
-	padding: 0px;
-}
+
 
 address ul {
 	list-style: none;
@@ -110,6 +107,11 @@ ul.textline {
 /* Resposible */
 
 @media screen and (min-width: 801px){
+	#TopNavigation ul {
+		margin: auto;
+		padding: 0px;
+	}
+
 	#TopBannerHeader h1 {
 		width: 800px;
 	}
@@ -132,6 +134,11 @@ ul.textline {
 }
 
 @media screen and (max-width: 800px){
+	#TopNavigation ul {
+		margin: auto 15px;
+		padding: 0px;
+	}
+
 	#TopNavigation li {
 		display: inline-block;
 		margin: 0.25em auto;
